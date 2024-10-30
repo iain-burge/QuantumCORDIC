@@ -35,7 +35,7 @@ in the quantum estimation of Shapley values.
 
 ### Updated code
 
-All the code related to this work is available in <a href="https://github.com/iain-burge/QuantumCORDIC/tree/main/code">this repository</a>. 
+All the code related to this work is available in <a href="https://github.com/iain-burge/QuantumCORDIC">this repository</a>. 
 
 ## References
 
