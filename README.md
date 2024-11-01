@@ -1,4 +1,4 @@
-Supplementary Material to: Quantum CORDIC - Arcsin on a Budget 
+Supplementary Material to: Quantum CORDIC - Arcsin on a Budget
 ===
 
 ### Iain Burge, Institut Polytechnique de Paris, France.
@@ -9,14 +9,14 @@ Supplementary Material to: Quantum CORDIC - Arcsin on a Budget
 
 ## Abstract
 
-This work introduces a quantum algorithm for computing the arcsine 
+This work introduces a quantum algorithm for computing the arcsine
 function to an arbitrary accuracy. We leverage
 a technique from embedded computing and field-programmable
-gate array (FPGA), called COordinate Rotation DIgital Computer 
+gate array (FPGA), called COordinate Rotation DIgital Computer
 (CORDIC). CORDIC is a family of iterative algorithms
-that, in a classical context, can approximate various trigonometric, 
+that, in a classical context, can approximate various trigonometric,
 hyperbolic, and linear functions using only bit shifts and
-additions. Adapting CORDIC to the quantum context is non-trivial, 
+additions. Adapting CORDIC to the quantum context is non-trivial,
 as the algorithm traditionally uses several non-reversible
 operations. We detail a method for CORDIC which avoids such
 non-reversible operations. We propose multiple approaches to
@@ -35,13 +35,25 @@ in the quantum estimation of Shapley values.
 
 ### Updated code
 
-All the code related to this work is available in <a href="https://github.com/iain-burge/QuantumCORDIC">this repository</a>. 
+All the code related to this work is available in <a href="https://github.com/iain-burge/QuantumCORDIC/code">this repository</a>.
+
+### Experimental results
+
+We conducted some python simulations and found that the maximum error
+for any given input can be made arbitrarily small by making $n$ larger
+(see Figure 1). The full codebase can be found in this ![GitHub repository](https://github.com/iain-burge/QuantumCORDIC/code),
+releasing a complete implementation of our proposal using Qiskit, as
+well as an identical classical implementation.
+
+![figure1](https://github.com/iain-burge/QuantumCORDIC/code/results.png)
+#### Figure 1. Results of Classical simulations of Quantum compatible Algorithm for CORDIC Arcsine (cf. python code ![here](https://github.com/iain-burge/QuantumCORDIC/code)).
+
 
 ## References
 
 If using this code for research purposes, please cite:
 
-[1] I. Burge, M. Barbeau, J. Garcia-Alfaro. "Quantum CORDIC - Arcsin on a Budget". *To Appear*, October 2024. 
+[1] I. Burge, M. Barbeau, J. Garcia-Alfaro. "Quantum CORDIC - Arcsin on a Budget". *To Appear in 2025*.
 
 
 ```
@@ -49,8 +61,8 @@ If using this code for research purposes, please cite:
   title={Quantum CORDIC --- Arcsin on a Budget},
   author={Burge, Iain and Barbeau, Michel and Garcia-Alfaro, Joaquin},
   booktitle={},
-  year={2024},
-  month={October},
+  year={2025},
+  month={},
   publisher={IEEE},
   doi = {},
   url = {},
