@@ -45,7 +45,8 @@ for any given input can be made arbitrarily small by making $n$ larger
 releasing a complete implementation of our proposal using Qiskit, as
 well as an identical classical implementation.
 
-![figure1](https://github.com/iain-burge/QuantumCORDIC/tree/main/img/results.png)
+https://github.com/iain-burge/QuantumCORDIC/tree/main/img/results.png
+
 #### Figure 1. Results of Classical simulations of Quantum compatible Algorithm for CORDIC Arcsine (cf. python code ![here](https://github.com/iain-burge/QuantumCORDIC/tree/main/code)).
 
 
