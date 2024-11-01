@@ -35,18 +35,18 @@ in the quantum estimation of Shapley values.
 
 ### Updated code
 
-All the code related to this work is available in <a href="https://github.com/iain-burge/QuantumCORDIC/code">this repository</a>.
+All the code related to this work is available in <a href="https://github.com/iain-burge/QuantumCORDIC/tree/main/code">this repository</a>.
 
 ### Experimental results
 
 We conducted some python simulations and found that the maximum error
 for any given input can be made arbitrarily small by making $n$ larger
-(see Figure 1). The full codebase can be found in this ![GitHub repository](https://github.com/iain-burge/QuantumCORDIC/code),
+(see Figure 1). The full codebase can be found in this ![GitHub repository](https://github.com/iain-burge/QuantumCORDIC/tree/main/code),
 releasing a complete implementation of our proposal using Qiskit, as
 well as an identical classical implementation.
 
-![figure1](https://github.com/iain-burge/QuantumCORDIC/code/results.png)
-#### Figure 1. Results of Classical simulations of Quantum compatible Algorithm for CORDIC Arcsine (cf. python code ![here](https://github.com/iain-burge/QuantumCORDIC/code)).
+![figure1](https://github.com/iain-burge/QuantumCORDIC/tree/main/code/results.png)
+#### Figure 1. Results of Classical simulations of Quantum compatible Algorithm for CORDIC Arcsine (cf. python code ![here](https://github.com/iain-burge/QuantumCORDIC/tree/main/code)).
 
 
 ## References
