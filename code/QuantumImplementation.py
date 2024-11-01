@@ -1,6 +1,5 @@
 
 import time
-from tqdm import tqdm, trange
 from typing import Union
 
 from qiskit import QuantumCircuit as qc, QuantumRegister as qr
@@ -631,7 +630,7 @@ def cordicComplexity(n_max: int) -> None:
     n_val      = []
     opComplexity = []
     cnotCount  = []
-    for i in trange(3, n_max):
+    for i in range(3, n_max):
         try:
             tReg=qr(i); xReg=qr(i); yReg=qr(i); multReg=qr(i); dReg=qr(i-1)
             allReg  = tReg[:]+xReg[:]+yReg[:]+multReg[:]+dReg[:]

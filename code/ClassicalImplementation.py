@@ -3,12 +3,6 @@ import numpy as np
 from functools import cache
 import matplotlib.pyplot as plt
 
-# try:
-#     import matplotlib.pyplot as plt
-#     MATPLOT = True
-# except ImportError:
-#     import plotext as plt
-#     MATPLOT = False
 
 def bitshift(x: int, shift: int, n_bits: int) -> int:
     '''
