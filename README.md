@@ -47,7 +47,7 @@ well as an identical classical implementation.
 
 ![](img/results.png?raw=true)
 
-#### Figure 1. Results of Classical simulations of Quantum compatible Algorithm for CORDIC Arcsine (cf. python code ![here](https://github.com/iain-burge/QuantumCORDIC/tree/main/code)). (a) $n=6$. (b) $n=10$. (c) $n=16$.
+#### Figure 1. Results of both Quantum and Classical simulations of Quantum compatible Algorithm for CORDIC Arcsine (cf. python code ![here](https://github.com/iain-burge/QuantumCORDIC/tree/main/code)). (a) Quantum simulation, $n=4$. (b) Quantum simulation, $n=5$. (c) Quantum simulation, $n=6$. (d) Classical simulation, $n=6$. (e) Classical simulation, $n=10$. (f) Classical simulation, $n=16$.
 
 
 ## References
