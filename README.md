@@ -13,7 +13,7 @@ This work introduces a quantum algorithm for computing the arcsine
 function to an arbitrary accuracy. We leverage
 a technique from embedded computing and field-programmable
 gate array (FPGA), called COordinate Rotation DIgital Computer
-(CORDIC). CORDIC is a family of iterative algorithms
+([CORDIC](https://en.wikipedia.org/wiki/CORDIC)). CORDIC is a family of iterative algorithms
 that, in a classical context, can approximate various trigonometric,
 hyperbolic, and linear functions using only bit shifts and
 additions. Adapting CORDIC to the quantum context is non-trivial,
@@ -24,7 +24,7 @@ calculate the arcsine function reversibly with CORDIC. For $n$ bits
 of precision, our method has space complexity of order n qubits,
 a layer count in the order of n times log n, and a CNOT count in
 the order of n squared. This primitive function is a required step
-for the Harrow–Hassidim–Lloyd (HHL) algorithm, is necessary
+for the [Harrow–Hassidim–Lloyd](https://en.wikipedia.org/wiki/HHL_algorithm) (HHL) algorithm, is necessary
 for quantum digital-to-analog conversion, can simplify a quantum
 speed-up for Monte-Carlo methods, and has direct applications
 in the quantum estimation of Shapley values.
