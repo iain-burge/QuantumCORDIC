@@ -41,13 +41,13 @@ All the code related to this work is available in <a href="https://github.com/ia
 
 We conducted some python simulations and found that the maximum error
 for any given input can be made arbitrarily small by making $n$ larger
-(see Figure 1). The full codebase can be found in this ![GitHub repository](https://github.com/iain-burge/QuantumCORDIC/tree/main/code),
+(see Figure 1). The full codebase can be found in this [GitHub repository](https://github.com/iain-burge/QuantumCORDIC/tree/main/code),
 releasing a complete implementation of our proposal using Qiskit, as
 well as an identical classical implementation.
 
 ![](img/results.png?raw=true)
 
-#### Figure 1. Results of both Quantum and Classical simulations of Quantum compatible Algorithm for CORDIC Arcsine (cf. python code ![here](https://github.com/iain-burge/QuantumCORDIC/tree/main/code)). (a) Quantum simulation, $n=4$. (b) Quantum simulation, $n=5$. (c) Quantum simulation, $n=6$. (d) Classical simulation, $n=6$. (e) Classical simulation, $n=10$. (f) Classical simulation, $n=16$.
+#### Figure 1. Results of both Quantum and Classical simulations of Quantum compatible Algorithm for CORDIC Arcsine (cf. python code [here](https://github.com/iain-burge/QuantumCORDIC/tree/main/code)). (a) Quantum simulation, $n=4$. (b) Quantum simulation, $n=5$. (c) Quantum simulation, $n=6$. (d) Classical simulation, $n=6$. (e) Classical simulation, $n=10$. (f) Classical simulation, $n=16$.
 
 
 ## References
