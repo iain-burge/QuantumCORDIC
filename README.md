@@ -54,19 +54,18 @@ well as an identical classical implementation.
 
 If using this code for research purposes, please cite:
 
-[1] I. Burge, M. Barbeau, J. Garcia-Alfaro. "Quantum CORDIC - Arcsin on a Budget". *To Appear in 2025*.
+Iain Burge, Michel Barbeau, Joaquin Garcia-Alfaro. Quantum CORDIC - Arcsin on a Budget. arXiv 2411.14434.
 
 
 ```
-@InProceedings{burge2024cordic,
-  title={Quantum CORDIC --- Arcsin on a Budget},
-  author={Burge, Iain and Barbeau, Michel and Garcia-Alfaro, Joaquin},
-  booktitle={},
-  year={2025},
-  month={},
-  publisher={IEEE},
-  doi = {},
-  url = {},
+@misc{burge2024quantumcordicarcsin,
+      title={Quantum CORDIC -- Arcsin on a Budget}, 
+      author={Iain Burge and Michel Barbeau and Joaquin Garcia-Alfaro},
+      year={2024},
+      eprint={2411.14434},
+      archivePrefix={arXiv},
+      primaryClass={quant-ph},
+      url={https://arxiv.org/abs/2411.14434}, 
 }
 ```
 
