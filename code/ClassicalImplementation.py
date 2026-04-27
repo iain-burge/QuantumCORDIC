@@ -201,7 +201,7 @@ def qasinModuloCORDIC(t: int, n_bits: int, _debug: bool = False) -> float:
 
 
 def main():
-    n = 16
+    n = 12
     n_bits    = n-2 #sorry for the dumb naming
 
     test      = np.linspace(-(1<<(n_bits)), (1<<(n_bits))-1, num=(1<<(n_bits+1)),
@@ -230,7 +230,7 @@ def main():
     # plt.grid()
     plt.show()
 
-    print(qasinModuloCORDIC(12, n_bits, True))
+    print(qasinModuloCORDIC(300, n_bits, True))
     # print(mult(4, 0, n_bits+2, 2, True))
 
     
