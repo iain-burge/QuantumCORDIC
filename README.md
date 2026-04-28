@@ -31,7 +31,7 @@ in the quantum estimation of Shapley values.
 
 *Keywords:* Quantum Algorithm, Quantum Computing, Quantum Information.
 
-*Version:* October 30, 2024
+*Version:* April 28, 2026
 
 ### Updated code
 
@@ -58,7 +58,7 @@ Iain Burge, Michel Barbeau, Joaquin Garcia-Alfaro. Quantum CORDIC - Arcsin on a 
 
 
 ```
-@misc{burge2026quantumcordicarcsin,
+@misc{burge2026quantumcordicarcsine,
       title={Quantum CORDIC -- Arcsine on a Budget}, 
       author={Iain Burge and Michel Barbeau and Joaquin Garcia-Alfaro},
       year={2026},
