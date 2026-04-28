@@ -1,4 +1,4 @@
-Supplementary Material to: Quantum CORDIC - Arcsin on a Budget
+Supplementary Material to: Quantum CORDIC - Arcsine on a Budget
 ===
 
 ### Iain Burge, Institut Polytechnique de Paris, France.
@@ -58,10 +58,10 @@ Iain Burge, Michel Barbeau, Joaquin Garcia-Alfaro. Quantum CORDIC - Arcsin on a 
 
 
 ```
-@misc{burge2024quantumcordicarcsin,
-      title={Quantum CORDIC -- Arcsin on a Budget}, 
+@misc{burge2026quantumcordicarcsin,
+      title={Quantum CORDIC -- Arcsine on a Budget}, 
       author={Iain Burge and Michel Barbeau and Joaquin Garcia-Alfaro},
-      year={2024},
+      year={2026},
       eprint={2411.14434},
       archivePrefix={arXiv},
       primaryClass={quant-ph},
